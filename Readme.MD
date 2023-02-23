@@ -44,12 +44,12 @@ The application must implement the following functionalities:
 - Update a todo: Users must be able to send a PUT request that includes the ID of the todo to update and any other fields that need to be updated (eg title, - description, status). The application should return the updated todo.
 - Delete a todo: Users must be able to send a DELETE request that includes the ID of the todo to be deleted. The application should return a message confirming that the todo has been deleted.
 ## Project Structure
-The folder structure of this app is explained below:
+The some of the folders that you will find are:
 
 | Name | Description |
 | ------------------------ | --------------------------------------------------------------------------------------------- |
-| **assets**               | Contains a txt file that will be created with the first API request call. It will store all the IDs already created, and will be checked for unicity.
 | **node_modules**         | Contains all  npm dependencies                                                            |
+| **deploye**              | Contains Docker stuff                                                          |
 | **config**               | Application configuration for logs purposes, and sequelize database details
 | **controllers**          | Controllers define functions to serve express routes. 
 | **routes**               | Contains express route that performs some actions before calling the controller              
