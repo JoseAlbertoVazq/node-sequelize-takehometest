@@ -49,7 +49,7 @@ The some of the folders that you will find are:
 | Name | Description |
 | ------------------------ | --------------------------------------------------------------------------------------------- |
 | **node_modules**         | Contains all  npm dependencies                                                            |
-| **deploye**              | Contains Docker stuff                                                          |
+| **deploy**              | Contains Docker stuff                                                          |
 | **config**               | Application configuration for logs purposes, and sequelize database details
 | **controllers**          | Controllers define functions to serve express routes. 
 | **routes**               | Contains express route that performs some actions before calling the controller              
